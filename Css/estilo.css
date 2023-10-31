@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Mukta:wght@400;700&family=Outfit&display=swap');
+
+body{
+    background: black;
+    color: white;
+}
+
+nav{
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+footer{
+    margin-top: 100px;
+    background: rgb(16, 30, 228);
+    text-align: center;
+    padding: 1px;
+    font-family: 'cabin', sans-serif;   
+}
+
+#logo{
+    color: rgb(48, 48, 48);
+    font-family: 'cabin', sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+#logo span{
+    color: white;
+    font-family: 'cabin', sans-serif;
+}
+
+.cabecalho{
+    background: rgb(16, 30, 228);
+    margin-top: -35px;
+}
+
+/*INICIO PARAMORE*/
+.menu-bandas li{
+    display: inline;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.menu-bandas a{
+    text-decoration: none;
+    font-family: 'cabin', sans-serif;
+    font-size: 20px;
+    color: rgb(48, 48, 48);
+}
+
+.menu-bandas a:hover{
+    color: white;
+    transition: ease-in-out 0.2s;
+    border-bottom: 1px solid white;
+}
+
+.informacao-banda{
+    margin: 0px auto;
+    max-width: 800px;
+    padding: 20px;
+    font-family: 'cabin', sans-serif;
+}
+
+.titulo-banda{
+    font-size: 55px;
+    text-align: center;
+}
+
+.apresentacao-paramore{
+    border-radius: 10%;
+    height: 350px;
+    float: left;
+    margin-right: 25px;
+}
+
+.texto-paramore{
+    position: relative;
+    top: 10px;
+
+}
+
+.album-paramore-section{
+    margin-top: 60px;
+}
+
+.album-paramore-img{
+    border-radius: 10%;
+    height: 400px;
+    float: left;
+    margin-right: 50px;
+}
+
+.album-paramore-li{
+    text-decoration: none;
+    list-style: upper-roman;
+    margin-top: 90px;
+}
+
+.titulo-album-paramore{
+    position: relative;
+    top: 80px;
+    right: 20px;
+}
+
+.musica-paramore-section{
+    margin-top: 220px;
+}
+
+.musica-paramore-img{
+    border-radius: 10%;
+    height: 350px;
+    float: left;
+    margin-right: 50px;
+}
+
+.titulo-musica-paramore{
+    position: relative;
+    top: 90px;
+    right: 20px;
+}
+
+.musica-paramore-section ul{
+    text-decoration: none;
+    list-style: upper-roman;
+    margin-top: 100px;
+}
+
+.link-paramore{
+    font-family: 'cabin', sans-serif;  
+    margin-top: 200px;
+    text-align: center;
+}
+
+.link-paramore a{
+    color: rgb(16, 30, 228);
+    text-decoration: none;
+}
+
+.link-paramore a:hover{
+    color: rgb(207, 52, 52);
+    transition: .5s ease;
+    text-decoration: underline;
+}
+/*TERMINO PARAMORE*/
+
+
+/*INICIO DEFTONES*/
+
+.apresentacao-deftones{
+    border-radius: 10%;
+    height: 350px;
+    float: right;
+    margin-left: 25px;
+}
+
+.texto-deftones{
+    position: relative;
+    top: 85px;
+}
+
+.album-deftones-section{
+    margin-top: 230px;
+}
+
+.album-deftones-img{
+    float: left;
+    border-radius: 10%;
+    height: 250px;
+}
+
+.album-deftones-li{
+    text-decoration: none;
+    list-style: upper-roman;
+    position: relative;
+    left: 35px;
+}
+
+.titulo-album-deftones{
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.musica-deftones-section{
+    margin-top: 85px;
+}
+
+.musica-deftones-img{
+    border-radius: 10%;
+    height: 350px;
+    float: left;
+}
+
+.titulo-musica-deftones{
+    position: relative;
+    left: 15px;
+    top: 100px;
+}
+
+.musica-deftones-section li{
+    text-decoration: none;
+    list-style: upper-roman;
+    position: relative;
+    left: 35px;
+    top: 85px;
+}
+
+.link-deftones{
+    font-family: 'cabin', sans-serif;
+    margin-top: 17em;
+    text-align: center;
+}
+
+.link-deftones a{
+    color: rgb(16, 30, 228);
+    text-decoration: none;
+}
+
+.link-deftones a:hover{
+    color: rgb(207, 52, 52);
+    transition: .5s ease;
+    text-decoration: underline;
+}
+/*TÉRMINO DEFTONES*/
+
+/*INICIO VINTAGE*/
+
+.apresentacao-vintage{
+    border-radius: 10%;
+    height: 450px;
+    float: left;
+    margin-right: 25px;  
+}
+
+.album-vintage-img{
+    border-radius: 10%;
+    height: 300px;
+    float: right; 
+    margin-top: 35px;
+}
+
+.titulo-album-vintage{
+    position: relative;
+    top: 100px;
+    left: -10px;    
+}
+
+.texto-album-vintage{
+    position: relative;
+    top: 90px;
+    right: 15px;
+}
+
+.musica-vintage-section{
+    margin-top: 250px; 
+}
+
+.musica-vintage-img{
+    border-radius: 10%;
+    height: 350px;
+    float: left;
+    margin-right: 50px;  
+}
+
+.titulo-musica-vintage{
+    position: relative;
+    top: 100px;
+    right: 20px;
+}
+
+.musica-vintage-section ul{
+    position: relative;
+    top: 95px;
+    list-style: upper-roman;
+}
+
+.link-vintage{
+    font-family: 'cabin', sans-serif;  
+    margin-top: 300px;
+    text-align: center;
+}
+
+.link-vintage a{
+    color: rgb(16, 30, 228);
+    text-decoration: none;
+}
+
+.link-vintage a:hover{
+    color: rgb(207, 52, 52);
+    transition: .5s ease;
+    text-decoration: underline
+}
+/*TÉRMINO VINTAGE*/
+
+/*INICIO FISHER*/
+
+.apresentacao-fisher{
+    height: 450px;
+    float: left;
+    margin-right: 25px;;
+}
+
+.album-fisher-section{
+    margin-top: 40px;
+}
+
+.album-fisher-img{
+    border-radius: 10%;
+    height: 300px;
+    float: left; 
+    margin-top: 35px;
+}
+
+.titulo-album-fisher{
+    position: relative;
+    top: 90px;
+    left: 25px;
+}
+
+.texto-album-fisher{
+    position: relative;
+    top: 85px;
+    left: 25px;
+}
+
+.musica-fisher-section{
+    margin-top: 250px;
+}
+
+.musica-fisher-img{
+    border-radius: 10%;
+    height: 300px;
+    float: left;
+    margin-right: 50px;
+}
+
+.titulo-musica-fisher{
+    position: relative;
+    top: 65px;
+    left: -15px;
+}
+
+.musica-fisher-section li{
+    list-style: upper-roman;
+    position: relative;
+    top: 60px;
+}
+
+.link-fisher{
+    font-family: 'cabin', sans-serif;  
+    margin-top: 250px;
+    text-align: center;
+}
+
+.link-fisher a{
+    color: rgb(16, 30, 228);
+    text-decoration: none;
+}
+
+.link-fisher a:hover{
+    color: rgb(207, 52, 52);
+    transition: .5s ease;
+    text-decoration: underline
+}
+/*TÉRMINO FISHER*/
+
+/*INICIO OFICINA*/
+
+.apresentacao-oficina{
+    border-radius: 10%;
+    height: 380px;
+    float: right;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.album-oficina-section{
+    margin-top: 80px;
+}
+
+.album-oficina-img{
+    border-radius: 10%;
+    height: 400px;
+    float: right; 
+    margin-top: 35px; 
+}
+
+.titulo-album-oficina{
+    position: relative;
+    top: 100px;
+    left: 10px;
+}
+
+.album-oficina-section li{
+    position: relative;
+    top: 100px;
+    left: -50px;
+    list-style: upper-roman;
+    margin: 8px 0 8px 40px;
+}
+
+.musica-oficina-section{
+    margin-top: 200px;
+}
+
+.musica-oficina-img{
+    border-radius: 10%;
+    height: 450px;
+    float: right;
+    margin-top: 25px;
+}
+
+.titulo-musica-oficina{
+    position: relative;
+    top: 160px;
+    left: 120px;
+}
+
+.musica-oficina-section li{
+    position: relative;
+    top: 150px;
+    left: 90px;
+    list-style: upper-roman;
+}
+
+.link-oficina{
+    font-family: 'cabin', sans-serif;  
+    margin-top: 400px;
+    text-align: center;
+}
+
+.link-oficina a{
+    color: rgb(16, 30, 228);
+    text-decoration: none;
+}
+
+.link-oficina a:hover{
+    color: rgb(207, 52, 52);
+    transition: .5s ease;
+    text-decoration: underline
+}
+/*TÉRMINO OFICINA*/
+
+/*INICIO PALAVRA*/
+
+.apresentacao-palavra{
+    border-radius: 10%;
+    height: 450px;
+    float: right;
+    margin-left: 25px; 
+    margin-bottom: 20px; 
+}
+
+.album-palavra-section{
+    margin-top: 80px;  
+}
+
+.album-palavra-img{
+    border-radius: 10%;
+    height: 300px;
+    float: left; 
+}
+
+.titulo-album-palavra{
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+
+.album-palavra-li{
+    position: relative;
+    top: 50px;
+    left: 35px;
+    list-style: upper-roman;
+}
+
+.musica-palavra-section{
+    margin-top: 280px;
+}
+
+.musica-palavra-img{
+    float: right;
+    border-radius: 10%;
+    height: 350px;
+}
+
+.titulo-musica-palavra{
+    position: relative;
+    top: 80px;
+    left: 220px;
+}
+
+.musica-palavra-section li{
+    position: relative;
+    top: 80px;
+    left: 190px;
+    list-style: upper-roman;
+}
+
+.link-palavra{
+    font-family: 'cabin', sans-serif;  
+    margin-top: 250px;
+    text-align: center;
+}
+
+.link-palavra a{
+    color: rgb(16, 30, 228);
+    text-decoration: none;
+}
+
+.link-palavra a:hover{
+    color: rgb(207, 52, 52);
+    transition: .5s ease;
+    text-decoration: underline
+}
